@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Novel App</string>
+    <string name="novel">উপন্যাস সমগ্র</string>
+    <string name="adults_title">প্রাপ্ত বয়স্কদের উপন্যাস (১৮+)</string>
+    <string-array name="novellist">
+        <item>আমি ও উপন্যাস</item>
+        <item>এক বিকালের গল্প</item>
+        <item>গল্পঃ বিজয়ের হাসি</item>
+        <item>গল্পঃ মায়াবিনী</item>
+        <item>জীবনের চাকা - ভালবাসার গল্প</item>
+        <item>ত্রিশ মিনিট - ভালবাসার গল্প</item>
+        <item>নিঃস্বার্থ ভালোবাসা</item>
+        <item>রিফাত ও অথৈই এর চরম ভালবাসার গল্প</item>
+    </string-array>
+    <string-array name="adultslist">
+        <item>একটি আষাঢ়ে গল্প</item>
+        <item>ট্রেনে ভিড়ের সুযোগে…</item>
+        <item>পুরুষদের বাথরুমে</item>
+        <item>বিয়ের দু সপ্তাহ আগে…</item>
+        <item>মায়ের যৌন চাহিদা</item>
+    </string-array>
+    <string-array name="novelFileName">
+        <item>a.txt</item>
+        <item>b.txt</item>
+        <item>c.txt</item>
+        <item>d.txt</item>
+        <item>e.txt</item>
+        <item>f.txt</item>
+        <item>g.txt</item>
+        <item>h.txt</item>
+    </string-array>
+    <string-array name="adultFileName">
+        <item>ea.txt</item>
+        <item>eb.txt</item>
+        <item>ec.txt</item>
+        <item>ed.txt</item>
+        <item>ee.txt</item>
+    </string-array>
+</resources>

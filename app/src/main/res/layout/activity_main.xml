@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6100EB"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:scrollbarSize="10dp"
+        android:scrollbarThumbVertical="@drawable/myscrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:text="@string/novel"
+                />
+            <ListView
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/novelList"
+                android:layout_width="match_parent"
+                android:layout_height="650dp">
+
+            </ListView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:text="@string/adults_title"
+                />
+            <ListView
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/adultList"
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
